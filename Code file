@@ -5,13 +5,10 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-**Importing dataset**
-
 #Importing the dataset
 data = pd.read_csv('/content/TSLA.csv')
 data.head()
 
-## **Description and Measurement Scale**
 
 #Describing the feataures of the dataset
 description = data.describe()
